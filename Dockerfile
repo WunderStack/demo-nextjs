@@ -1,11 +1,11 @@
 #
 # To build this docker container run this in the root directory of repo:
 #
-# docker build --build-arg NPM_AUTH_TOKEN_FONTAWESOME="${NPM_AUTH_TOKEN_FONTAWESOME}" --tag wdpr_log_viewer:latest --file frontend/log-viewer/Dockerfile .
+# docker build --tag wdpr_demo_nextjs:latest --file frontend/log-viewer/Dockerfile .
 #
 # To run the docker container:
 #
-# docker run --rm -p 5002:5002 -it --name wdpr_log_viewer wdpr_log_viewer:latest
+# docker run --rm -p 8000:8000 -it --name wdpr_demo_nextjs wdpr_demo_nextjs:latest
 #
 
 
